@@ -1,0 +1,36 @@
+{
+  "checksums": {
+    "spec/spec_helper.rb": "f82db14a9c79a12ab003ebec135afe1a",
+    "tests/init.pp": "70cebc7cdbbb3ae4179c07b5939435af",
+    "Gemfile": "c4a766a30c62dcb2cc813a7493e46af8",
+    "tests/ntp.pp": "0a9daaed827cb4f93541adf43ccbe610",
+    "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "spec/classes/vmwaretools_spec.rb": "d8cc3f489b497f8be4bb1dabcab7999f",
+    "README.md": "096ef820b4ed17dd4592b1a6e35a09b8",
+    "TODO": "a73f97affa5f40b941c6f91863e1311c",
+    "Rakefile": "3bdac22fafcb9f2ef4dc17499bea810d",
+    "spec/classes/vmwaretools_ntp_spec.rb": "4afc5d7d134d5bea3fc210b143d816c7",
+    "TODO.local": "38f1aad94767269401dd5d45819a079c",
+    "tests/class.pp": "ff5353aaec480d9891907c84d23e2047",
+    "manifests/params.pp": "af1646145c846479464bdf5fda1fb442",
+    "manifests/init.pp": "e863a1d97b0baa9f07c53d46cb03ae94",
+    "spec/fixtures/manifests/site.pp": "d41d8cd98f00b204e9800998ecf8427e",
+    "Modulefile": "7ccea161111e5e50e1f017bbc31a4c63",
+    "manifests/ntp.pp": "5685400e0f50c42ba85126ea54170fd3",
+    "LICENSE": "4f960dc2fd2d219b183be6460aa70af3"
+  },
+  "project_page": "https://github.com/razorsedge/puppet-vmwaretools",
+  "license": "Apache 2.0",
+  "version": "4.0.2",
+  "source": "git://github.com/razorsedge/puppet-vmwaretools.git",
+  "description": "This module manages the installation of the VMware Operating System Specific Packages for VMware tools.\n\nActions:\n\n    Removes old VMwareTools package or runs vmware-uninstall-tools.pl if found.\n    Installs a vmware YUM repository.\n    Installs the OSP.\n    Starts the vmware-tools service.\n\nOS Support:\n    RedHat family\t- tested on CentOS 5.5 and CentOS 6.2\n    Fedora\t\t- not supported\n    SuSE family\t\t- untested (initial support for yumrepo)\n    Ubuntu\t\t- presently unsupported\n    Debian\t\t- presently unsupported\n\nClass documentation is available via puppetdoc.",
+  "summary": "Puppet module to manage VMware Operating System Specific Packages for VMware tools installation.",
+  "author": "razorsedge",
+  "name": "razorsedge-vmwaretools",
+  "dependencies": [
+
+  ],
+  "types": [
+
+  ]
+}

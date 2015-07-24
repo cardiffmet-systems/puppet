@@ -1,0 +1,43 @@
+{
+  "name": "jriviere-windows_sql",
+  "version": "0.0.9",
+  "author": "jriviere",
+  "summary": "Module for Installation and configuration of SQL Server 2012",
+  "license": "Apache License, Version 2.0",
+  "source": "https://github.com/insentia/windows_sql",
+  "project_page": "https://github.com/insentia/windows_sql",
+  "issues_url": "https://github.com/insentia/windows_sql/issues",
+  "description": "Module for Installation and configuration of SQL Server 2012. You can also manage maintenance of your databases",
+  "types": [
+  
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Windows"
+    }
+  ],
+  "checksums": {
+    "Modulefile": "c869d97cff58d755aee2f4a931f84816",
+    "README.md": "0ddf63fbe88dc050aa8efc42e912fd11",
+    "manifests/autocomplete.pp": "8921baadf0ca1bddf86411de403ca784",
+    "manifests/init.pp": "3210a02173931b9405df679b53921102",
+    "manifests/install.pp": "cf63a4ef0961d63f9a331188117fe002",
+    "manifests/params.pp": "6181c5a01ad5b80cc12160cf65395a64",
+    "spec/spec_helper.rb": "09ccbe4bbe4503df6281e6ec7977973d",
+    "templates/checkifinstall.erb": "779d1ac328f1f585a6647f0f04448444",
+    "templates/config.erb": "83f4d9c96e9dc621a9e0623b68cef059",
+    "templates/configps.erb": "cc6b52bd9221ea749edc033c65bfe8f2",
+    "templates/install.erb": "aebaa846a63ac0ef7a3f27e5f72b59a0",
+    "tests/init.pp": "5a561d31ee2ca48295b4722b203600b1"
+  },
+  "dependencies": [
+    {
+      "name": "puppetlabs/powershell",
+      "version_requirement": ">=1.0.2"
+    },
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">= 4.2.1"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+#include stdlib
+
+validate_bool($autoupgrade)
+validate_re($tools_version, '^[^5-9]\.[0-9]*')
+validate_bool($service_enable)
+validate_bool($service_hasstatus)
+validate_bool($service_hasrestart)
+
+test Fedora
+test 5.0latest
